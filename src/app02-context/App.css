@@ -1,0 +1,52 @@
+/* .div-li li{
+    background-color: red;;
+}
+
+li{
+    width: 30px;
+    height: 30px;
+}
+
+.list-container ~ span{
+    background-color: greenyellow;
+}
+
+.list-container + .under-span{
+    background-color: greenyellow;
+} */
+
+
+/* p:first-child{
+    background-color: yellow;
+} */
+
+/* .div-li span:nth-child(2){
+    background-color: yellow;
+} */
+
+/* .div-li span:nth-of-type(2){
+    background-color: yellow;
+} */
+
+/* .div-li{
+    color: turquoise;
+    padding:200px;
+    border: 5px solid white;
+    background-color: blueviolet;
+} */
+
+.div-block span{
+    display: inline-block;
+    /* padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 50px; 
+    margin-left: 20px;
+    margin-top: 20px;  */
+
+    padding-left: 20px;
+    padding-top: 100px;
+    margin-right: 20px;
+    margin-top: 30px;
+    width: 50px;
+    height: 100px;
+}
