@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Router, Route, Link} from 'react-router';
 import './index.css';
 import App from './app05-smallgame/App';
 // import reportWebVitals from './reportWebVitals';
