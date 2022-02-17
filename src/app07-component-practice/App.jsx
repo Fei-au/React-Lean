@@ -1,13 +1,23 @@
 import React from 'react';
 import './App.css';
+import {Input} from '../Component/DataEntry/Input';
+// import { Input } from 'antd';
+// import { UserOutlined } from '@ant-design/icons';
 
 export default class App extends React.Component{
 
     render(){
         return (
-            <div>
-
-            </div>
+            <>
+            {/* <Input size="large" placeholder="large size" prefix={<UserOutlined />} />
+            <br />
+            <br />
+            <Input placeholder="default size" prefix={<UserOutlined />} />
+            <br />
+            <br />
+            <Input size="small" placeholder="small size" prefix={<UserOutlined />} /> */}
+            <Input/>
+          </>
         );
     }
 }
