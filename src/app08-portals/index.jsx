@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './index.less';
 
 export default class App extends React.Component{
 

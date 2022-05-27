@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './app05-smallgame/App';
+// import App from './app06-hook/App';
+import TypeCheck from './app07-propTypes';
 // import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <TypeCheck />
   </React.StrictMode>,
   document.getElementById('root')
 );
