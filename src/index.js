@@ -2,13 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './app06-hook/App';
-import TypeCheck from './app07-propTypes';
+// import TypeCheck from './app07-propTypes';
 // import reportWebVitals from './reportWebVitals';
+
+import PortalsTest from './app08-portals';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
-    <TypeCheck />
+    {/* <TypeCheck /> */}
+    <PortalsTest/>
   </React.StrictMode>,
   document.getElementById('root')
 );
