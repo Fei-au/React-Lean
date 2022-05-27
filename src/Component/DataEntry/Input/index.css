@@ -1,0 +1,10 @@
+.outer-div{
+    background-color: lightskyblue;
+}
+.input{
+    text-align: right;
+    border: 1px solid yellowgreen;
+}
+.input:focus-visible{
+    outline: 0px;
+}
